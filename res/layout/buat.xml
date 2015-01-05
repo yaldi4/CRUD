@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Nama"/>
+    <EditText android:id="@+id/buat_editTextNama"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:inputType="text"/>
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Telepon"/>
+    <EditText android:id="@+id/buat_editTextTelepone"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:inputType="phone"/>
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Email"/>
+    <EditText android:id="@+id/buat_editTextEmail"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:inputType="textEmailAddress"/>
+    <Button android:id="@+id/buat_buttonSimpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simpan Kontak"/>
+
+</LinearLayout>
