@@ -22,7 +22,7 @@ public class DaftarActivity extends Activity {
 
         form = new DaftarForm(this);
 
-        loadKontak();
+        loadKontak();//meload contact
     }
 
     private void loadKontak() {
