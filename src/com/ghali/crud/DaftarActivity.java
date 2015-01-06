@@ -11,6 +11,7 @@ import java.util.List;
 
 /**
  * Created by galih on 1/5/2015.
+ * Updated at  5:20 AM
  */
 public class DaftarActivity extends Activity {
     private DaftarForm form;
